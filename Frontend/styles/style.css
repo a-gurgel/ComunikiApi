@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto-menor {
+    font-size: 13px;
+}
+
+.div-novidades {
+    width: 325px;
+}
+
+.botao {
+    background-color: #0c6b8e;
+}
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
+    }
+
+}
