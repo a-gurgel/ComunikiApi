@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComunikiApi", "ComunikiApi\ComunikiApi.csproj", "{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComunikiApi", "ComunikiApi\ComunikiApi.csproj", "{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comuniki_Produtos", "Comuniki_Produtos", "{70965070-0D44-4A61-8EF7-2DC351D17B27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Comuniki_Usuarios", "Comuniki_Usuarios", "{FFDDF2CC-73AD-4FCD-855F-A385A6BF2826}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsuariosApi", "UsuariosApi\UsuariosApi.csproj", "{13AE3960-773F-4233-BC36-07A9A441162D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AE3960-773F-4233-BC36-07A9A441162D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AE3960-773F-4233-BC36-07A9A441162D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AE3960-773F-4233-BC36-07A9A441162D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AE3960-773F-4233-BC36-07A9A441162D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC2BC6BA-783F-466F-A3B9-59ABBC7DA9AD} = {70965070-0D44-4A61-8EF7-2DC351D17B27}
+		{13AE3960-773F-4233-BC36-07A9A441162D} = {FFDDF2CC-73AD-4FCD-855F-A385A6BF2826}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BD3B35B-166E-4BD4-BB2A-310EA0C21B71}
